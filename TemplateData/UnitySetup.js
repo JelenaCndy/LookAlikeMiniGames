@@ -3,11 +3,11 @@ function unityShowBanner(msg, type) {
     }
     
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/v8.loader.js";
+    var loaderUrl = buildUrl + "/v9.loader.js";
     var config = {
-        dataUrl: buildUrl + "/v8.data",
-        frameworkUrl: buildUrl + "/v8.framework.js",
-        codeUrl: buildUrl + "/v8.wasm",
+        dataUrl: buildUrl + "/v9.data",
+        frameworkUrl: buildUrl + "/v9.framework.js",
+        codeUrl: buildUrl + "/v9.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MiniGames",
